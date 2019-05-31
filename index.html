@@ -1,58 +1,61 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Pembetatu</title>
-    <link rel="stylesheet" href="/css/bootstrap.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <div class="container">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pembetatu</title>
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
 
 
-<h1>Pembetatu</h1>
+    <h1>Pembetatu</h1>
 
 
-<p>Pembetatu is an application that helps you figure out the names of different types of triangles.
-</p>
-<p>The following are the different types of <b> triangles </b>:</p>
-<ul>
+    <p>Pembetatu is an application that helps you figure out the names of different types of triangles.
+    </p>
+    <p>The following are the different types of <b> triangles </b>:</p>
+    <ul>
 
-  <li>A scalene triangle is a triangle that has <b>three unequal sides<b></li>
-  <li>An equilateral triangle is a triangle in which <b>all three sides</b> are equal</li>
-  <li>An isosceles triangle is a triangle that has <b> two sides</b> of equal length</li>
-</ul>
-<div class="triangle">
-  <div class="row">
-    <div class="col-7">
-      <div class="card card-body">
-        <form id="triangleTracker" action="index.html" method="post">
-          <div class="form-group">
-            <label for="firstSide">First side</label>
-            <input type="text" name="firstSide" placeholder="first side"id="firstSide" >
-          </div>
+      <li>A scalene triangle is a triangle that has <b>three unequal sides<b></li>
+      <li>An equilateral triangle is a triangle in which <b>all three sides</b> are equal</li>
+      <li>An isosceles triangle is a triangle that has <b> two sides</b> of equal length</li>
+    </ul>
+    <div class="triangle">
+      <div class="row">
+        <div class="col-7">
+          <div class="card card-body">
+            <form id="triangleTracker" action="index.html" method="post">
               <div class="form-group">
-            <label for="secondside"> Second side</label>
-            <input type="text" name="secondSide" id="secondSide" placeholder="second side"  >
+                <label for="firstSide">First side</label>
+                <input type="text" name="firstSide" placeholder="first side" id="firstSide">
+              </div>
+              <div class="form-group">
+                <label for="secondside"> Second side</label>
+                <input type="text" name="secondSide" id="secondSide" placeholder="second side">
+              </div>
+              <div class="form-group">
+                <label for="thirdSide">Third Side</label>
+                <input type="text" name="thirdSide" id="thirdSide" placeholder="third side">
+              </div>
+              <button onclick="triangleTracker ()" class="btn btn-primary" type="submit">Submit </button>
+            </form>
+
           </div>
-            <div class="form-group">
-            <label for="thirdSide">Third Side</label>
-            <input type="text" name="thirdSide" id="thirdSide" placeholder="third side" >
-          </div>
-<button onclick="triangleTracker ()" class="btn btn-primary" type="submit"  >Submit </button>
-        </form>
+
+        </div>
 
       </div>
-
     </div>
-
-  </div>
-</div>
-<script src="script.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
 
 
 
-  </body>
+</body>
+
 </html>

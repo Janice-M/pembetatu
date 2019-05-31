@@ -13,7 +13,7 @@ else if (first === second || second === third || first  === third) {
   alert("This is an isosceles triangle");
 
 }
-else if (first ===0 || second === 0 || third===0) {
+else if (first == 0 || second == 0 || third == 0) {
   alert("Not a triangle buddy!");
 
 }

@@ -41,7 +41,7 @@
             <label for="thirdSide">Third Side</label>
             <input type="text" name="thirdSide" id="thirdSide" placeholder="third side" >
           </div>
-<button class="btn btn-primary" type="submit" value="triangleTracker" >Submit </button>
+<button onclick="triangleTracker ()" class="btn btn-primary" type="submit"  >Submit </button>
         </form>
 
       </div>
@@ -50,42 +50,9 @@
 
   </div>
 </div>
+<script src="script.js" charset="utf-8"></script>
 
 
 
-
-
-
-<script type="text/javascript">
-function triangleTracker(firstSide,secondSide,thirdSide) {
-
-
-var first= document.getElementById('firstSide');
-var second= document.getElementById('secondSide');
-var third= document.getElementById('thirdSide');
-
-
-}
-
-if(firstSide == secondSide && secondSide == thirdSide){
-alert(This is an equilateral triangle);
-}
-else if (firstSide == secondSide || secondSide == thirdSide || firstSide  == thirdSide) {
-
-  alert(This is an isosceles triangle);
-
-}
-else if (firstSide ==0 || secondSide == 0 || thirdSide ==0) {
-  alert(Not a triangle buddy!);
-
-}
-else {
-  alert (This is a scalene triangle);
-}
-
-
-
-
-</script>
   </body>
 </html>

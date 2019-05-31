@@ -24,55 +24,58 @@
   <li>An equilateral triangle is a triangle in which <b>all three sides</b> are equal</li>
   <li>An isosceles triangle is a triangle that has <b> two sides</b> of equal length</li>
 </ul>
+<div class="triangle">
+  <div class="row">
+    <div class="col-7">
+      <div class="card card-body">
+        <form id="triangleTracker" action="index.html" method="post">
+          <div class="form-group">
+            <label for="firstSide">First side</label>
+            <input type="text" name="firstSide" placeholder="first side"id="firstSide" >
+          </div>
+              <div class="form-group">
+            <label for="secondside"> Second side</label>
+            <input type="text" name="secondSide" id="secondSide" placeholder="second side"  >
+          </div>
+            <div class="form-group">
+            <label for="thirdSide">Third Side</label>
+            <input type="text" name="thirdSide" id="thirdSide" placeholder="third side" >
+          </div>
+<button class="btn btn-primary" type="submit" value="triangleTracker" >Submit </button>
+        </form>
 
+      </div>
 
+    </div>
 
-
-<form name="triangleTracker">
-
-    <div class="form-row">
-<div class="col-4">
-  <div class="form-group">
-    <label for="firstSide">First Side(cm)</label>
-    <input type="firstSide" class="form-control" id="firstSide" aria-describedby="firstSide" placeholder="Enter first side">
-    <small id="fromHelp" class="form-text text-muted">All measurements should be entered in centimeters.</small>
   </div>
-  <div class="form-group">
-    <label for="secondSide">Second Side</label>
-    <input type="secondSide" class="form-control" id="secondSide" placeholder="Enter second side">
-    <small id="fromHelp" class="form-text text-muted">All measurements should be entered in centimeters.</small>
-  </div>
-  <div class="form-group">
-    <label for="thirdSide">Third Side</label>
-    <input type="thirdSide" class="form-control" id="thirdSide" placeholder="Enter third side">
-    <small id="fromHelp" class="form-text text-muted">All measurements should be entered in centimeters.</small>
-  </div>
-
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">I have entered all measurements</label>
-    <small id="fromHelp" class="form-text text-muted">All measurements should be entered in centimeters.</small>
-  </div>
-  <input id="clickMe" type="button" value="clickme" onclick="doFunction();" />
-  </div>
-  </div>
-</form>
-
 </div>
+
+
+
+
+
+
 <script type="text/javascript">
-document.getElementById("clickMe").onclick = function () {
-var firstSide =document.triangleTracker.getElementById('firstSide').value
-var secondSide = document.triangleTracker.getElementById('secondSide').value
-var thirdSide = document.triangleTracker.getElementById('thirdSide').value
-if(firstSide === secondSide && secondSide == thirdSide ){
+function triangleTracker(firstSide,secondSide,thirdSide) {
+
+
+var first= document.getElementById('firstSide');
+var second= document.getElementById('secondSide');
+var third= document.getElementById('thirdSide');
+
+
+}
+
+if(firstSide == secondSide && secondSide == thirdSide){
 alert(This is an equilateral triangle);
 }
-else if (firstSide == secondSide || secondSide == thirdSide || firstSide == thirdSide) {
+else if (firstSide == secondSide || secondSide == thirdSide || firstSide  == thirdSide) {
 
   alert(This is an isosceles triangle);
 
 }
-else if (firstSide==0 || secondSide== 0 || thirdSide==0) {
+else if (firstSide ==0 || secondSide == 0 || thirdSide ==0) {
   alert(Not a triangle buddy!);
 
 }
@@ -82,20 +85,7 @@ else {
 
 
 
-if(finalBmi < 18.5){
-document.bmiForm.meaning.value = "That you are too thin."
-}
-if(finalBmi > 18.5 && finalBmi < 25){
-document.bmiForm.meaning.value = "That you are healthy."
-}
-if(finalBmi > 25){
-document.bmiForm.meaning.value = "That you have overweight."
-}
-}
-else{
-alert("Please Fill in everything correctly")
-}
-}
+
 </script>
   </body>
 </html>

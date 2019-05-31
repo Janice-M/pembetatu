@@ -1,11 +1,11 @@
-function triangleTracker(first,second,third) {
+function triangleTracker() {
 
 
-var first= document.getElementById('firstSide');
-var second= document.getElementById('secondSide');
-var third= document.getElementById('thirdSide');
+var first= document.getElementById('firstSide').value;
+var second= document.getElementById('secondSide').value;
+var third= document.getElementById('thirdSide').value;
 
-if(first === second && second ===thirdSide){
+if(first === second && second ===third){
 alert("This is an equilateral triangle");
 }
 else if (first === second || second === third || first  === third) {

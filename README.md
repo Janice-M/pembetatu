@@ -6,7 +6,7 @@
 
 ## Description
 
-Pembetatu is a web application that will help us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.
+Pembetatu is a web application that will help users know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.
 
 ## BDD
 

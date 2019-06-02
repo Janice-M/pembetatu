@@ -3,6 +3,12 @@
   width:720px;
 
 }
-.triangle{
-  
+.triangle .col-3 {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.card {
+  border: 0;
 }

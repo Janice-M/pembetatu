@@ -1,5 +1,5 @@
 # Pembetatu
-#### {Brief description of application}, {Date of current version}
+#### version one.
 #### By **Janice Mukenyi  Muia**
 ## Description
 Pembetatu is a web application that will help us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.

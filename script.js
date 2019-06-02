@@ -1,24 +1,27 @@
-function triangleTracker() {
+function triangleTracker(first,second,third) {
 
+  var first = document.getElementById('firstSide').value;
+  var second = document.getElementById('secondSide').value;
+  var third = document.getElementById('thirdSide').value;
 
-var first= document.getElementById('firstSide').value;
-var second= document.getElementById('secondSide').value;
-var third= document.getElementById('thirdSide').value;
+  if(first === second && second === third){
+    if (first == "" || first.length == 0 || first == null && second == "" || second.length == 0 || second == null && third == "" || third.length == 0 || third == null) {
+      alert("Not a triangle buddy!");
+    } else {
+      alert("This is an equilateral triangle");
+    }
+  }
 
-if(first === second && second ===third){
-alert("This is an equilateral triangle");
-}
-else if (first === second || second === third || first  === third) {
+  else if (first === second || second === third || first  === third) {
+    if (first == "" || first.length == 0 ||first == 0 || first == null ||second==0|| second == "" || second.length == 0 || second == null ||third == 0 || third == "" || third.length == 0 || third == null) {
+      alert("Not a triangle buddy!");
+    } else {
+        alert("This is an isosceles triangle");
+      }
+    }
 
-  alert("This is an isosceles triangle");
-
-}
-else if (first == 0 || second == 0 || third == 0) {
-  alert("Not a triangle buddy!");
-
-}
-else {
-  alert ("This is a scalene triangle");
-}
+  else {
+    alert ("This is a scalene triangle");
+  }
 
 }

@@ -10,38 +10,31 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
 </head>
 
 <body>
 
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Pembetatu</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#home">About <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#test">Triangle test</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact us</a>
-      </li>
+    <nav>
+      <ul class="nav justify-content-end bg-blue color-text-secondary mr-6">
+  <li class="nav-item ">
+    <a class="nav-link active  bg-info text-white" href="#home">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link  bg-info text-white" href="#services">Triangle test</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link  bg-info text-white" href="#contact">Contact Us</a>
+  </li>
 
-    </ul>
-  </div>
-</nav>
+</ul>
+    </nav>
 
     <div class="jumbotron row">
 
       <div class="col-8">
-        <h1>Pembetatu</h1>
-
+        <h1 id="home">Pembetatu</h1>
 
         <p>Pembetatu is an application that helps you figure out the names of different types of triangles.
         </p>
@@ -54,7 +47,7 @@
         </ul>
       </div>
       <div class="triangle col-4">
-        <div class="card card-body">
+        <div  id="services"class="card card-body">
           <form id="triangleTracker" action="index.html" method="post">
             <div class="form-group row">
               <label class="col-12" for="firstSide">First side</label>
@@ -68,11 +61,26 @@
               <label class="col-12" for="thirdSide">Third Side</label>
               <input class="col-12" type="text" name="thirdSide" id="thirdSide" placeholder="third side">
             </div>
-            <button onclick="triangleTracker ()" class="btn btn-primary" type="submit">Submit </button>
+            <button onclick="triangleTracker ()" class="btn btn-info" type="submit">Submit </button>
           </form>
         </div>
+          </div>
+          <br>
+          <br>
+        <div id="contact">
+          <address>
+            <strong>Pembetatu</strong><br>
+            Ngong Lane, Ngong Lane Plaza<br>
+            Nairobi, 00200-Kilimanii<br>
+          </address>
 
-      </div>
+          <address>
+            <strong>Janice Mukenyi Muia</strong><br>
+            <a href="mailto:janiceink001@gmail.com">janiceink001@gmail.com</a>
+          </address>
+        </div>
+
+
     </div>
 
     <script src="script.js" charset="utf-8"></script>

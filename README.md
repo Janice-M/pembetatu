@@ -7,7 +7,9 @@
 ## Description
 
 Pembetatu is a web application that will help us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.
-\##Bdd
+
+## BDD
+
 BDD(Behavior Driven Development) focuses on users being able to identify the kind of triangle they have.
 
 This requires users to input various lengths , submit and wait for result.

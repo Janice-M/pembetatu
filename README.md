@@ -14,6 +14,14 @@ BDD(Behavior Driven Development) focuses on users being able to identify the kin
 
 This requires users to input various lengths , submit and wait for result.
 
+| Command                 |                                          Description                                          |
+| :---------------------- | :-------------------------------------------------------------------------------------------: |
+| Enter the first length  |                 Type in the length, this can be any number or no number at all                |
+| Enter the second length |            Type in the length, this will be your second number or no number at all            |
+| Enter the third length  |                 Type in the length, this can be any number or no number at all                |
+| Click the submit button | This will render your numbers into the application to decide the type of triangle in question |
+| Result                  |             An alert pop-up will inform you the type triangle your lengths make up            |
+
 ## Setup/Installation Requirements
 
 -   Open your terminal (ctrl+alt+T).

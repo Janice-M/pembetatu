@@ -26,8 +26,8 @@ This requires users to input various lengths , submit and wait for result.
 
 -   Open your terminal (ctrl+alt+T).
 -   Initialize git on your terminal.
--   git clone <https://github.com/Janice-M/pembetatu.git>.
--   open the 'triangles' folder.
+-   git clone <https://github.com/Janice-M/studio.git>.
+-   open the 'https://github.com/Janice-M/studio.githttps://github.com/Janice-M/studio.githttps://github.com/Janice-M/studio.githttps://github.com/Janice-M/studio.githttps://github.com/Janice-M/studio.git' folder.
 -   Open the file named index.html on your preferred internet browser.
 -   Enter all the lengths into the submission boxes.
 -   Click Submit.
